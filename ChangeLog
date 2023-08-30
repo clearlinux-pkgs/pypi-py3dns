@@ -1,3 +1,13 @@
+4.0.0 Sat, Jul 1, 2023
+ * Bump major version due to incompatible change
+ * Remove class DnsAsyncRequest, asyncore is removed from Python 3.12 and it
+   would require a substial rewrite - If you need async DNS, use aiodns
+   instead. (LP: #2003329)
+ * Switch build system from setuptools with setup.py to flit
+ * If /etc/resolv.conf, assume DNS server is '127.0.0.1', this changes the
+   existing behavior - in previous releases there would be a
+   FileNotFoundError.
+
 3.2.1 Wed, Sep  4, 2019
  * Add support for setting timeout for convenience methods in DNS.lazy
  * Fixed DNS.req resulttype error format (LP: #1842423)
