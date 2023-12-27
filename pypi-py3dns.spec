@@ -5,7 +5,7 @@
 #
 Name     : pypi-py3dns
 Version  : 4.0.0
-Release  : 3
+Release  : 4
 URL      : https://files.pythonhosted.org/packages/ce/46/5fe65e2d914ae7c46cae498269166c36adfd90624574bab12a05927ee0ec/py3dns-4.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/ce/46/5fe65e2d914ae7c46cae498269166c36adfd90624574bab12a05927ee0ec/py3dns-4.0.0.tar.gz
 Summary  : Python 3 DNS library
