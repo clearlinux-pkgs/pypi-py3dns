@@ -1,3 +1,8 @@
+4.0.1 Sun, Feb 25, 2024
+ * Fix regex string in Base.py to be raw string to resolve SyntaxWarning for
+   invalid escape sequence with python3.12, thanks to Agathe Porte for fixing
+   in Debian.
+
 4.0.0 Sat, Jul 1, 2023
  * Bump major version due to incompatible change
  * Remove class DnsAsyncRequest, asyncore is removed from Python 3.12 and it

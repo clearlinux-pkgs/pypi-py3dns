@@ -1,5 +1,5 @@
 PKG_NAME := pypi-py3dns
-URL = https://files.pythonhosted.org/packages/ce/46/5fe65e2d914ae7c46cae498269166c36adfd90624574bab12a05927ee0ec/py3dns-4.0.0.tar.gz
+URL = https://files.pythonhosted.org/packages/20/58/0d73b890c6df037add249d321edbecda3d91fd5c66ebc7a263525b2044a4/py3dns-4.0.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
