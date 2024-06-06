@@ -1,3 +1,6 @@
+4.0.2 Thu, Jun 6, 2024
+ * Update expected test results due to changed example.com IP addresses.
+
 4.0.1 Sun, Feb 25, 2024
  * Fix regex string in Base.py to be raw string to resolve SyntaxWarning for
    invalid escape sequence with python3.12, thanks to Agathe Porte for fixing
